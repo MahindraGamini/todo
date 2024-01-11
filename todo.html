@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="todoheading">
+        <h1>TODO APP</h1>
+        <div class="taskadd">
+            <input type="text" id="mytask" placeholder="enter a task">
+            <button class="add" onclick="addtask()">+</button> <!-- Fix the class attribute -->
+        </div>
+    </div>
+
+    <div class="list">
+        <ul id="myul" draggable="true">          
+        </ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>

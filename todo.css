@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todoheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    justify-content: center;
+    color: white;
+    margin: 0 15vw ;
+}
+#myul{
+    cursor: move;
+}
+.list{
+    background-color: rgb(30, 30, 30);
+    color :white;
+    margin: 0 15vw ;
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style:none;
+}
+.add{
+    font-weight: 400;
+    font-size: medium;
+    width: 20px;
+}
+.taskadd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
